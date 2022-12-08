@@ -1,0 +1,216 @@
+.logoAp{
+    filter: invert();
+}
+
+section.banner{
+    background-image: linear-gradient(
+    rgba(0,0,0,0.2),
+    rgba(0,0,0,0.3)
+    ),url(../img/atardecer.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -msn-background-size: cover;
+}
+h1.intro{
+    padding-top: 15%;
+    font-size: 5rem;
+}
+
+section.experiencia{
+    background-color: #fff0;
+    border: 3px solid #696969;
+    border-radius: 1em;
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+section.educacion{
+    background-color: #fff0;
+    border: 3px solid #696969;
+    border-radius: 1em;
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+section.habilidades{
+    background-color: #fff0;
+    border: 3px solid #696969;
+    border-radius: 1em;
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+section.proyectos{
+    background-color: #fff0;
+    border: 3px solid #696969;
+    border-radius: 1em;
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+section.hobbies{
+    background-color: #fff0;
+    border: 3px solid #696969;
+    border-radius: 1em;
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.video{
+    margin-left: 18rem;
+}
+
+section.contacto{
+    background-color: #fff0;
+    border: 3px solid #696969;
+    border-radius: 1em;
+    margin-top: 10px;
+    margin-left: 6px;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 20px;
+    background: #bdbebe;
+}
+
+section.experiencia{
+    padding: 20px;
+    background: #bdbebe;
+  
+}
+
+section.educacion{
+    padding: 20px;
+    background: #bdbebe;
+  
+}
+
+section.habilidades{
+    padding: 20px;
+    background: #bdbebe;
+    font-family: Gill Sans, sans-serif;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  
+}
+.skill{
+    width: 500px;
+    margin: 5px;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252,103,103,1)100%);
+}
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+.css{
+    width: 70%;
+    animation: html 3s;
+}
+.github{
+    width: 50%;
+    animation: github 3s;
+}
+.typescript{
+    width: 60%;
+    animation: typescrit 3s;
+}
+.angular{
+    width: 90%;
+    animation: angular 3s;
+}
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes css{
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 70%;
+        }
+    }        
+@keyframes github{
+            0%{
+                width: 0%;
+            }
+            100%{
+                width: 50%;
+            }
+}
+@keyframes typescript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+    @keyframes angular{
+        0%{
+            width: 0%;
+        }
+        100%{
+            width: 90%;
+        }
+     }
+
+section.proyectos{
+    padding: 20px;
+    background: #bdbebe;
+  
+}
+
+section.hobbies{
+    padding: 20px;
+    background: #bdbebe;
+  
+}
+
+.footer{
+    margin-top: 20px;
+    text-align: center;
+}

@@ -4,85 +4,179 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" 
+rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" 
+crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/f272d67da9.js" crossorigin="anonymous"></script>  
+<link rel="stylesheet" href="assets/css/styles.css">
     <title>Document</title>
 </head>
 <body>
+      <!--Seccion navbar-->
+<section id="navbar">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar" target="_blank"><img class="logoAp" src="assets/img/logo.png" alt="logo-argentina-programa"></a>
+          
+            <ul class="list-group list-group-horizontal">
+                <li class="list-group-item"><a href="https://github.com/diegolprograma" target="_blank"><i class="fa-brands fa-square-github"></i></a></li>
+                <li class="list-group-item"><a href="https://linkedin.com/in/diegolozanoprogramador/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+            </ul>
+                <!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#loginModal">
+  <i class="fa-solid fa-lock"></i>
+  </button>
+  <button type="button" class="btn btn-light">
+    <i class="fa-solid fa-lock-open"></i>
+    </button>
 
-    <!--Seccion Redes-->
-    <section>
-        <h2>Redes</h2>
-        <ul>
-            <li><a href="https://github.com/diegolprograma" target="_blank">Git hub </li>
-            <li><a href="www.linkedin.com/in/diegolozanoprogramador" target="_blank">Linkedin</li>
-        </ul>
-    </section>
-    
-    <!--Seccion sobre Mi-->
-     <section> 
- 
-     <h1>Sobre mi</h1>   
-      <div>
-        <img src="diego.jpg" alt="La-imagen-de-Diego" title="Imagen de Diego">
-    <h3>Diego Lozano</h3>
-    <h4>Estudiante de Progamador Full Stack Junior</h4>
- </div>
- <div>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consequuntur quibusdam commodi itaque quam unde corporis omnis illo reprehenderit. Earum id inventore harum iure consequatur. Ea hic maxime accusamus placeat?
-</p>
- </div>
-    
-</section> 
+        </div>
+        </div>
+      </nav>
+</section>
+
+<!--Sección Banner-->
+<section class="banner">
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col mt-5">
+        <img src="assets/img/diego.jpg" class="rounded-circle w-75" alt="La-imagen-de-Diego" title="Imagen de Diego">
+      </div>
+      <div class="col">
+        <h2 class="text-white text-center mt-5 pt-5"> 
+          Hola,<br> soy Diego Lozano<br>Desarrollador Full Stack Junior</h2> 
+          <h5 class="text-white text-center mt-5 pt-5"> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita, earum possimus! Sapiente modi voluptate, minima voluptatibus corporis eveniet quod mollitia itaque saepe a veniam cum, assumenda officia doloremque non omnis.</p></h5> 
+      </div>
+    </div>
+  </div>
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#bannerModal">
+  <i class="fa fa-pen"></i>
+  </button>
+
+</section>
 
  <!--Seccion Experiencia-->
-<section>
- 
-    <h2>Experiencia</h2>
+<section class="experiencia">
+  <div class="row">
+  <h2>Experiencia </h2>
+  <div class="col-lg-1"></div>
+  <div class="col-lg-11">
+       <ul>
+          <li><h4>Trabajo 1</h4><h5>(2000-2008)</h5></li>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ab quia voluptatem eveniet voluptate perspiciatis nesciunt, molestiae earum corrupti ex corporis quis! A illo aliquam quia, odio temporibus nesciunt fuga!</p>
+       </ul>
+       <ul>
+        <li><h4>Trabajo 2</h4><h5>(2010-2012)</h5></li>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ab quia voluptatem eveniet voluptate perspiciatis nesciunt, molestiae earum corrupti ex corporis quis! A illo aliquam quia, odio temporibus nesciunt fuga!</p>
+     </ul>
+     <ul>
+      <li><h4>Trabajo 3</h4><h5>(2013-2020)</h5></li>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ab quia voluptatem eveniet voluptate perspiciatis nesciunt, molestiae earum corrupti ex corporis quis! A illo aliquam quia, odio temporibus nesciunt fuga!</p>
+   </ul>
+  </div>
+</div>
+ <!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#experienciaModal">
+  <i class="fa fa-pen"></i>
+  </button>
 
-    
 </section>
 
 <!--Seccion Educacion-->
- 
- <section>
- 
+<section class="educacion">
+  <div class="row">
     <h3>Educacion</h3>
+    <div class="col-lg-1"></div>
+  <div class="col-lg-11">
+       <ul>
+          <li><h4>Estudio 1</h4><h5>(1989-1994)</h5></li>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ab quia voluptatem eveniet voluptate perspiciatis nesciunt, molestiae earum corrupti ex corporis quis! A illo aliquam quia, odio temporibus nesciunt fuga!</p>
+       </ul>
+       <ul>
+        <li><h4>Estudio 2</h4><h5>(2010-2012)</h5></li>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ab quia voluptatem eveniet voluptate perspiciatis nesciunt, molestiae earum corrupti ex corporis quis! A illo aliquam quia, odio temporibus nesciunt fuga!</p>
+     </ul>
+     <ul>
+      <li><h4>Estudio 3</h4><h5>(2018)</h5></li>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, ab quia voluptatem eveniet voluptate perspiciatis nesciunt, molestiae earum corrupti ex corporis quis! A illo aliquam quia, odio temporibus nesciunt fuga!</p>
+   </ul>
+  </div>
+
+  </div>
+     <!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#educacionModal">
+  <i class="fa fa-pen"></i>
+  </button>
 
     
 </section>
 
 <!--Seccion Habilidades tecnicas-->
 
-<section>
- 
- <h4>Habilidades tecnicas</h4>
+  <section class="habilidades">
+    
+    <h3>Habilidades tecnicas</h3>
+    <div class="skill">
+    <li><h4>html</h4>
+      <span class="bar"><span class="html"></span>
+    </li>
+    <li><h4>css</h4>
+         <span class="bar"><span class="css"></span>
+    </li>
+    <li><h4>github</h4>
+      <span class="bar"><span class="github"></span>
+    </li>
+    <li><h4>typescript</h4>
+      <span class="bar"><span class="typescript"></span>
+    </li>
+    <li><h4>angular</h4>
+      <span class="bar"><span class="angular"></span>
+    </li>
+        
+    </div>
 
+   
+ <!-- Button trigger modal -->
+ <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#habilidadesModal">
+  <i class="fa fa-pen"></i>
+  </button>
 
 </section>
 
 
 <!--Sección Proyectos-->
 
-<section>
-
+<section class="proyectos">
 
 <h5>Proyectos</h5>
-
+<P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id ea iste impedit molestias obcaecati. Suscipit est ducimus sit maiores animi nam? Maiores dolor a harum perferendis molestiae amet veniam aliquam?</P>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#proyectosModal">
+  <i class="fa fa-pen"></i>
+  </button>
 
 </section>
 
 <!--Sección Hobbies-->
 
-<section>
+<section class="hobbies">
 
 <h6>Hobbies</h6>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/etc9lxmCW5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#hobbiesModal">
+  <i class="fa fa-pen"></i>
+  </button>
+<iframe class= "video" width="560" height="315" src="https://www.youtube.com/embed/etc9lxmCW5k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 </section>
 
 <!--sección Contacto-->
-<section>
+<section class="contacto">
     <h3>Mapa</h3>
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26271.44624250884!2d-58.51064404244832!3d-34.60591181898264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc9df44319d89%3A0x72e02046997c8cef!2sVilla%20del%20Parque%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1668283715197!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <label for="">usuario</label>
@@ -92,10 +186,244 @@
     <input type="password" placeholder="Escribe aquí tu contraseña">
 
     <button type="submit">Enviar</button>
-
+   
+    <div class="footer">
+    <p>Lozano Diego Antonio | © Argentina Programa 2022</p>
+    <p>Buenos Aires, Argentina</p>
+  </div>
 </section>
 
+<!--Modales-->
+ <!-- Modal  Login-->
+ <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="loginModalLabel">Login</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                
+                <div class="mb-3">
+                    <label for="exampleInputFecha" class="form-label">Fecha</label>
+                    <input type="date" class="form-control" id="exampleInputFecha">
+                </div>
+                
+                <div class="mb-3">
+                    <label for="exampleEjemploSobreMi" class="form-label">Texto largo</label>
+                    <textarea class="form-control" id="exampleEjemploSobreMi"></textarea>
+                </div>
+              </form>
 
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
+           </div>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal  Banner-->
+<div class="modal fade" id="bannerModal" tabindex="-1" aria-labelledby="bannerModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="experienciaModalLabel">Editar</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+          <form>
+            
+              
+              <div class="mb-3">
+                  <label for="exampleEjemploSobreMi" class="form-label">Editar</label>
+                  <textarea class="form-control" id="exampleEjemploSobreMi"></textarea>
+              </div>
+
+            </form>
+
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+         </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+  
+  <!-- Modal  Experiencia-->
+ <div class="modal fade" id="experienciaModal" tabindex="-1" aria-labelledby="experienciaModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="experienciaModalLabel">Editar</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+          <form>
+            
+              
+              <div class="mb-3">
+                  <label for="exampleEjemploSobreMi" class="form-label">Editar</label>
+                  <textarea class="form-control" id="exampleEjemploSobreMi"></textarea>
+              </div>
+
+            </form>
+
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+         </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+   <!-- Modal  Educación-->
+   <div class="modal fade" id="educacionModal" tabindex="-1" aria-labelledby="educacionModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="educacionModalLabel">Editar</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+            <form>
+              
+                
+                <div class="mb-3">
+                    <label for="exampleEjemploSobreMi" class="form-label">Editar</label>
+                    <textarea class="form-control" id="exampleEjemploSobreMi"></textarea>
+                </div>
+              </form>
+  
+        
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+          <button type="submit" class="btn btn-primary">Submit</button>
+           </div>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ <!-- Modal  Habilidades-->
+ <div class="modal fade" id="habilidadesModal" tabindex="-1" aria-labelledby="habilidadesModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="habilidadesModalLabel">Editar</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+          <form>
+            
+              
+              <div class="mb-3">
+                  <label for="exampleEjemploSobreMi" class="form-label">Editar</label>
+                  <textarea class="form-control" id="exampleEjemploSobreMi"></textarea>
+              </div>
+            </form>
+
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+         </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- Modal  Proyectos-->
+ <div class="modal fade" id="proyectosModal" tabindex="-1" aria-labelledby="proyectosModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="proyectosModalLabel">Editar</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+          <form>
+            
+              
+              <div class="mb-3">
+                  <label for="exampleEjemploSobreMi" class="form-label">Editar</label>
+                  <textarea class="form-control" id="exampleEjemploSobreMi"></textarea>
+              </div>
+            </form>
+
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+         </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal  Hobbies-->
+<div class="modal fade" id="hobbiesModal" tabindex="-1" aria-labelledby="hobbiesModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="hobbiesModalLabel">Editar</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+          <form>
+            
+              
+              <div class="mb-3">
+                  <label for="exampleEjemploSobreMi" class="form-label">Editar</label>
+                  <textarea class="form-control" id="exampleEjemploSobreMi"></textarea>
+              </div>
+            </form>
+
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+         </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" 
+crossorigin="anonymous"></script>
 
 </body>
 </html>
